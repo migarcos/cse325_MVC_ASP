@@ -111,7 +111,7 @@ namespace MvcMovie.Controllers
         [HttpPost]
         // The HttpPost attribute specifies that this Edit method can be invoked only for POST requests.
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
         {
             if (ModelState.IsValid)
             {

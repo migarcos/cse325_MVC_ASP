@@ -22,3 +22,4 @@ dotnet dev-certs https --trust
 ````
 ### Util URL:
 - [Get started with Razor Pages in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code)
+- [Ratings list](https://www.showbizjunkies.com/mpaa-ratings/)
