@@ -28,7 +28,7 @@ public class HelloWorldController : Controller
     // {
     //     return "This is the Welcome action method...";
     // }
-     public IActionResult Privacy()
+    public IActionResult Privacy()
     {
         return View();
     }
