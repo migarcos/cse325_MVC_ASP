@@ -9,6 +9,7 @@ namespace MvcMovie.Migrations
     public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
+        /// creates the Movie table and configures Id as the primary key
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -29,6 +30,7 @@ namespace MvcMovie.Migrations
         }
 
         /// <inheritdoc />
+        /// reverts the schema changes made by the Up migration.
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
